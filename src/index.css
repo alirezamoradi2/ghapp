@@ -753,7 +753,18 @@ td {
 
 
 
-
+/* _________________________FAQ______________________ */
+@media screen and (min-width: 900px) {
+  .headfaq::before,
+  .headfaq::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid black;
+    width: 6rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+  }
+}
 
 
 

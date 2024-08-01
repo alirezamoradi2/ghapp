@@ -27,9 +27,9 @@ const QA = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto text-center mb-20">
-              <h2 className="text-6xl sm:text-8xl cursor-pointer">
+              <p className="text-6xl sm:text-8xl cursor-pointer headfaq">
                 {faq}
-              </h2>
+              </p>
             </div>
           </div>
         </div>

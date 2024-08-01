@@ -6,6 +6,8 @@ const phoneNumber2 = externalLinks[5].title;
 const address = footer[0].title;
 const workwithus = footer[1].title;
 const contactus = footer[2].title;
+const copyright = footer[3].title;
+const designteam = footer[4].title;
 
 const telLink = externalLinks[1].title;
 const instaLink = externalLinks[2].title;
@@ -92,6 +94,14 @@ const Footer = () => {
                         GHOGHNOS
                     </p>
                 </a>
+            </div>
+            <div className="lowest-box pb-5 sm:pb-0 h-[100px] sm:h-[80px] flex flex-col-reverse sm:flex-row justify-around sm:justify-between items-center">
+                <p className="design-team sm:p-6">
+                    {designteam}
+                </p>
+                <p className="copyright sm:p-6">
+                    {copyright}
+                </p>
             </div>
         </div>
     );
