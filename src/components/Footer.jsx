@@ -46,11 +46,11 @@ const Footer = () => {
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12947.671883577355!2d51.412164238037136!3d35.77739128512113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e07cc57dc3ced%3A0x446412893ad39510!2z2YXYqNmEINi02YjbjNuMINmC2YLZhtmI2LM!5e0!3m2!1sen!2s!4v1722361757283!5m2!1sen!2s"
                             width="250"
                             height="150"
-                            frameborder="0"
+                            frameBorder="0"
                             style={{ border: 0 }}
-                            allowfullscreen=""
+                            allowFullScreen=""
                             aria-hidden="false"
-                            tabindex="0"
+                            tabIndex="0"
                         />
                     </div>
                 </div>

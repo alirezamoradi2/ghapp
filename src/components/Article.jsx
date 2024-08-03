@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import ArticleBox from "./sub-components/ArticleBox";
 import Modal from "./sub-components/Modal";
 import img1 from "../assets/article-img/1.jpg";
@@ -7,6 +8,11 @@ import img3 from "../assets/article-img/3.jpeg";
 import img4 from "../assets/article-img/4.jpg";
 
 import { navLinks, articleTitles, articleTxt1, articleTxt2, articleTxt3, articleTxt4 } from "../constants";
+
+const link1 = '/article1';
+const link2 = '/article2';
+const link3 = '/article3';
+const link4 = '/article4';
 
 const article = navLinks[2].title;
 const articleTitles1 = articleTitles[0].title;
@@ -25,10 +31,10 @@ const Article = () => {
 
             <div className="article-container flex flex-col items-center sm:flex-row sm:justify-around">
 
-                <ArticleBox imgsrc={img1} articletit={articleTitles1} modaltxt={articleTxt1} />
-                <ArticleBox imgsrc={img2} articletit={articleTitles2} modaltxt={articleTxt2} />
-                <ArticleBox imgsrc={img3} articletit={articleTitles3} modaltxt={articleTxt3} />
-                <ArticleBox imgsrc={img4} articletit={articleTitles4} modaltxt={articleTxt4} />
+                <ArticleBox imgsrc={img1} articletit={articleTitles1} link={link1} />
+                <ArticleBox imgsrc={img2} articletit={articleTitles2} link={link2} />
+                <ArticleBox imgsrc={img3} articletit={articleTitles3} link={link3} />
+                <ArticleBox imgsrc={img4} articletit={articleTitles4} link={link4} />
 
             </div>
         </div>
